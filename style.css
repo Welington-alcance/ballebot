@@ -121,7 +121,7 @@ body{
 }
 
 .img{
-    width: 390px;    
+    width: 100%;    
 }
 
 .section-secondary{
@@ -152,20 +152,24 @@ body{
 @media (max-width: 470px) {
     .seciton-primary{
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
         margin-top: 50px;
         height: auto;
         margin-bottom: 40px;
     }
 
     .text{
-        justify-content: center;
-        align-items: center;
         text-align: center;
-        gap: 10px;
     }
+
+    .div-img{
+        display: flex;
+        justify-content: center;
+    }
+
     .img{
-        width: 280px;
+       width: 60%;
+
     }
     .text p{
         font-size: 20px;
