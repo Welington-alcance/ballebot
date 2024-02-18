@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 18px 0;
+}
+
+.logo{
+    width: 62px;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-menu{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFF2E7;
+} 
+
+.navigation-menu::after{
+    content: " ";
+    background-color: #000;
+    width: 100%;
+    height: 3px;
+}
+
+
+
+
+/*-------------------Fim do header-------------------*/
+
+.linha{
+    border-top: 0.4px solid #FFF2E7;
+    max-width: 100%;
+}
+
+.main{
+    margin-bottom: 70px;
+}
+
+
+.seciton-primary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text h1{
+    font-family: 'Righteous', sans-serif;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.text p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.text button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #2F2325;
+    box-shadow: 0px 8px 4px #000;
+    transition: 1s;
+}
+
+.text button:hover{
+    cursor: pointer;
+    width: 260px;
+}
+
+.img{
+    width: 390px;
+}
+
+.section-secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-secondary h2{
+    font-family: 'Righteous', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFF2E7;
+
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 40px;
+    margin-bottom: 24px;
+}
+
+.section-secondary{
+    font-family: 'Sarola', sans-serif;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+/*-------------------Fim do Main-------------------*/
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-footer{
+    margin-top: 40px;
+    margin-bottom: 30px;
+  
+}
